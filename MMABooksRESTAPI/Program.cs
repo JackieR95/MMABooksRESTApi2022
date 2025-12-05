@@ -31,13 +31,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// In a production app you would want t turn this back on!
+// In a production app you would want to turn this back on!
 // app.UseHttpsRedirection();
 
 // Enables the CORS policy
 app.UseCors();
-
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
